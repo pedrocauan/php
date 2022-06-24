@@ -113,7 +113,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R & ALUNOS &COPY; 2022
+        COD3R & ALUNOS &COPY; <?= date('Y'); ?>
     </footer>
 </body>
 
