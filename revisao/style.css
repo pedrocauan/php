@@ -63,7 +63,7 @@ body {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     padding: 0 20px;
@@ -82,6 +82,8 @@ body {
 .modulo {
     /*Informa quanto de largura cada elemento vai ter*/
     flex-basis: 32%;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 /* estilização dos modulos do curso*/
 .modulo > h3 {
@@ -112,4 +114,90 @@ body {
 
 .modulo ul > li:hover {
     background-color: #eee;
+}
+/* === Mudando a cor dos modulos=== */
+
+/*1 modulo*/
+.modulo:nth-child(1) {
+    border: 2px solid #4CAF50;
+}
+
+.modulo:nth-child(1) h3{
+    background-color: #4CAF50;
+}
+
+/*2 modulo*/
+.modulo:nth-child(2) {
+    border: 2px solid #F44336;
+}
+
+.modulo:nth-child(2) h3{
+    background-color: #F44336;
+}
+
+
+/*3 modulo*/
+.modulo:nth-child(3) {
+    border: 2px solid #2196F3;
+}
+
+.modulo:nth-child(3) h3{
+    background-color: #2196F3;
+}
+
+
+/*4 modulo*/
+.modulo:nth-child(4) {
+    border: 2px solid #FF9800;
+}
+
+.modulo:nth-child(4) h3{
+    background-color: #FF9800;
+}
+
+
+/*5 modulo*/
+.modulo:nth-child(5) {
+    border: 2px solid #1B5800;
+}
+
+.modulo:nth-child(5) h3{
+    background-color: #1b5800;
+}
+
+
+/*6 modulo*/
+.modulo:nth-child(6) {
+    border: 2px solid #B71C1C;
+}
+
+.modulo:nth-child(6) h3{
+    background-color: #B71C1C;
+}
+
+/*7 modulo*/
+.modulo:nth-child(7) {
+    border: 2px solid #6c1cb7;
+}
+
+.modulo:nth-child(7) h3{
+    background-color: #6c1cb7;
+}
+
+/*8 modulo*/
+.modulo:nth-child(8) {
+    border: 2px solid #b71c95;
+}
+
+.modulo:nth-child(8) h3{
+    background-color: #b71c95;
+}
+
+/*8 modulo*/
+.modulo:nth-child(9) {
+    border: 2px solid #009479;
+}
+
+.modulo:nth-child(9) h3{
+    background-color: #009479;
 }
