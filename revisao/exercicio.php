@@ -26,7 +26,20 @@
     </nav>
     <main class="principal">
         <div class="conteudo">
-           
+           <?php 
+            //É possivel pegar o caminho pelo get do url
+            //include($_GET['dir'] . "/" . $_GET['file'] . ".php");
+            // $_GET['dir']
+            // $_GET['file']
+
+            include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
+            // include("teste/teste.php");
+
+            /* 
+                __DIR__ é a variavel do php que guarda o caminho do arquivo
+                dir e file são parametros passados no get
+            */
+           ?>
         </div>
     </main>
     <footer class="rodape">
