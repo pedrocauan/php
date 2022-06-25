@@ -107,6 +107,8 @@ body {
 }
 
 .modulo ul > li > a {
+    display: block;
+    width: 100%;
     text-decoration: none;
     display: flex;
     color: #222;
