@@ -20,10 +20,8 @@
         <li><a href="ex006">06 - Variaveis de variaveis</a></li>
         <li><a href="ex007">07 - Arrays</a></li>
         <li><a href="ex008">08 - Funções de arrays</a></li>
-        <li><a href="ex009">08 - Implode e Explode</a></li>
-
-
-
+        <li><a href="ex009">09 - Implode e Explode</a></li>
+        <li><a href="ex009">09 - condicionais if else</a></li>
     </ul>
 
     <h2>Formulários</h2>
