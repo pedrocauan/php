@@ -23,7 +23,7 @@
         <li><a href="ex009">09 - Implode e Explode</a></li>
         <li><a href="ex010">10 - condicionais if else</a></li>
         <li><a href="ex011">11 - switch case</a></li>
-        <li><a href="ex012">11 - incremento/decremento</a></li>
+        <li><a href="ex012">12 - incremento/decremento</a></li>
 
 
     </ul>

@@ -48,5 +48,9 @@
         $p = new Pessoa;
         var_dump($p);
     ?>
+
+<br>
+<br>
+<button><a href="../" style="display: block; text-decoration:none; color: black; font-size: 25px; width:100%;">voltar</a></button>
 </body>
 </html>
