@@ -19,6 +19,7 @@
         <li><a href="ex004">04 - String em PHP</a></li>
         <li><a href="ex006">06 - Variaveis de variaveis</a></li>
         <li><a href="ex007">07 - Arrays</a></li>
+        <li><a href="ex008">08 - Funções de arrays</a></li>
 
 
     </ul>
