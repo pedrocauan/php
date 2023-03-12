@@ -34,4 +34,39 @@
         echo $value . "<br>";
     } 
 
+    echo "<hr>";
+    //Arrays associativos (qnd as chaves são strings )
+    $pessoa = array("nome" => "pedro", "idade" => 22, "altura" => 1.73);
+    $pessoa["cidade"] = "São José do Rio Preto";
+
+    foreach($pessoa as $index => $value) {
+        echo $index .": ".  $value  . "<br>";
+    }
+
+    //Arrays multidimencionais
+    $times = array(
+        "cariocas" => array("campeao" => "vasco","vice" => "flamengo","terceiro" => "botafogo"),
+        "paulistas" => array("campeao" =>"São Paulo","vice" => "Corinthains","terceiro" => "Palmeiras"),
+        "bahianos" => array("campeao" => "Bahia", "vice" => "Vitoria", "terceiro" => "Sport")
+    );
+    echo "<hr>";
+
+    echo "<br>";
+    // percorrendo cada um dos arrays multidimencionais
+    echo "Cariocas <br>";
+    foreach($times["cariocas"] as $index => $value) {
+        echo $index . ": " . $value . "<br>";
+    }
+    echo "<br>";
+
+    echo "Paulistas <br>";
+    foreach($times["paulistas"] as $index => $value) {
+        echo $index . ": " . $value . "<br>";
+    }
+    echo "<br>";
+
+    echo "Bahianos <br>";
+    foreach($times["bahianos"] as $index => $value) {
+        echo $index . ": " . $value . "<br>";
+    }
 ?>
