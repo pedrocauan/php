@@ -1,3 +1,4 @@
+<h1>Funções para array</h1>
 <?php 
     /**
      * is_array() -> ve se é um array
@@ -15,9 +16,9 @@
     $nomes = array("primo" => "Rodrigo", "vizinho" => "Felipe", "mae" => "Maria", "pai" => "José");
 
     /* array_sum */
-    // $soma = array(7.8, 5.5, 10 , 7.2);
-    // $total = array_sum($soma);
-    // echo ($total);
+    $soma = array(7.8, 5.5, 10 , 7.2);
+    $total = array_sum($soma);
+    echo ($total);
 
     /* array_combine */
     // $keys = array("campeao", "vice", "terceiro");
