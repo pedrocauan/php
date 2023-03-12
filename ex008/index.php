@@ -9,8 +9,22 @@
      * array_shift() -> excluia primeira posição do array
      * array_unshift($array, $elemento) -> insere um ou mais elementos no inicio do array
      * array_push($array, $elemento) -> insere um ou mais elementos no final do array
+     * array_combine($arr1, $arr2) -> o primeiro array vira as chaves e o segundo vira os valores
+     * array_sum($arr) -> Soma todos os  valores de um array
      */
     $nomes = array("primo" => "Rodrigo", "vizinho" => "Felipe", "mae" => "Maria", "pai" => "José");
+
+    /* array_sum */
+    // $soma = array(7.8, 5.5, 10 , 7.2);
+    // $total = array_sum($soma);
+    // echo ($total);
+
+    /* array_combine */
+    // $keys = array("campeao", "vice", "terceiro");
+    // $values = array("vasco", "flamengo", "botafogo");
+    // $times = array_combine($keys, $values);
+    // print_r($times);
+
 
     /* array_push */
     // $frutas = array("Uva", "Laranja", "Maçã");
