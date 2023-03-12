@@ -7,8 +7,25 @@
      * array_merge($array1, $array2) -> junta dois ou mais arrays
      * array_pop() -> exclui a ultima posição do array
      * array_shift() -> excluia primeira posição do array
+     * array_unshift($array, $elemento) -> insere um ou mais elementos no inicio do array
+     * array_push($array, $elemento) -> insere um ou mais elementos no final do array
      */
     $nomes = array("primo" => "Rodrigo", "vizinho" => "Felipe", "mae" => "Maria", "pai" => "José");
+
+    /* array_push */
+    // $frutas = array("Uva", "Laranja", "Maçã");
+    // print_r($frutas);
+    // array_push($frutas, "Manga", "Acerola", "Morango");
+    // echo "<br>";
+    // print_r($frutas);
+
+
+    /* array_unshift */
+    // $frutas = array("Uva", "Laranja", "Maçã");
+    // print_r($frutas);
+    // array_unshift($frutas, "Manga", "Acerola", "Morango");
+    // echo "<br>";
+    // print_r($frutas);
 
     /* array_shift */
     // $carros = array("camaro", "uno", "gol");
