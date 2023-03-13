@@ -25,6 +25,7 @@
         <li><a href="ex011">11 - switch case</a></li>
         <li><a href="ex012">12 - incremento/decremento</a></li>
         <li><a href="ex013">13 - operadores relacionais</a></li>
+        <li><a href="ex014">14 - operadores logicos</a></li>
 
 
 
