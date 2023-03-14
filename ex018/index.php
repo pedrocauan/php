@@ -2,8 +2,9 @@
 <?php 
 //conexão com o db
 function connection(){
-    // 1p -> database, 2p -> usuaio, 3p -> senha
+    
     $options = array(PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC);
+    // 1p -> database, 2p -> usuaio, 3p -> senha
     $pdo = new PDO("mysql:host=localhost;dbname=library", "usuario", "", $options);
     return $pdo;
 }

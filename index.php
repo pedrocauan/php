@@ -34,7 +34,7 @@
         <li><a href="ex020">20 - isset (verificando se uma variavel existe)</a></li>
         <li><a href="ex021">21 - Escopo e variavel global</a></li>
         <li><a href="ex022">22 - Super globais</a></li>
-        <li><a href="ex022">23 - cookies</a></li>
+        <li><a href="ex023">23 - cookies</a></li>
 
 
 

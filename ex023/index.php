@@ -1,61 +1,12 @@
 <?php 
-/**
- * ==============================
- *             $_COKIE
- * ==============================
- *  - Valor guardado no navegador que pode ser resgatado no sistema
- *  - O cookie tem uma data de validade.
- *  - É utilizado quando precisamos definir um tempo limite para alguma ação
- * 
- */
+//data de expiração do cookie
+$data = time() + 2 * 24 * 60 * 60; // 2 dias, 24 horas, 60 minutos e 6 segundos
 
- /**
- * ==============================
- *             $_SESSION
- * ==============================
- *  - Valor guardado no navegador como um ID que vai conter determinados valores
- * 
- */
+/* strtotime() -> transforma string em hora pra ser usado como parametro */
 
-  /**
- * ==============================
- *             $_FILES
- * ==============================
- *  - Pega o arquivo enviado de um formulário
- * 
- */
+// 1p -> nome, 2p -> valor, 3p -> tempo 
+setcookie("curso", "PHP", strtotime("-4days")); //cria cookie
 
-  /**
- * ==============================
- *             $_GET
- * ==============================
- *  - pega os conteúdos passados via URL (query string)
- */
-
-
-   /**
- * ==============================
- *             $_POST
- * ==============================
- *  - pega os conteúdos pelo header do http
- */
-
-
-    /**
- * ==============================
- *             $_REQUEST
- * ==============================
- *  - pega tanto parametros via GET quanto headers via POST
- */
-
-     /**
- * ==============================
- *             $_SERVER
- * ==============================
- *  - pega informações sobre o servidor
- */
 ?>
 
-<br>
-<br>
-<button><a href="../" style="display: block; text-decoration:none; color: black; font-size: 25px; width:100%;">voltar</a></button>
+<a href="./ex023/teste.php">ver se o cookie existe</a>
