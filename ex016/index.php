@@ -5,6 +5,11 @@
 //     echo "8 x $count = " . 8 * $count . "<br>";
 // }
 
+$person = ["name" => "pedro", "age" => 22, "height" => 1.73];
+
+foreach($person as $key => $value){
+    echo("$key => $value <br>");
+}
 
 
 ?>
