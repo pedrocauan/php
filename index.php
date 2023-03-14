@@ -35,9 +35,7 @@
         <li><a href="ex021">21 - Escopo e variavel global</a></li>
         <li><a href="ex022">22 - Super globais</a></li>
         <li><a href="ex023">23 - cookies</a></li>
-
-
-
+        <li><a href="ex024">24 - session</a></li>
     </ul>
 
     <h2>Formulários</h2>
