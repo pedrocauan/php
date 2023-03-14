@@ -17,7 +17,7 @@ function getData($table){
 }   
 
 
-var_dump(getData("book"));
+var_dump(getData("user"));
 
 ?>
 
