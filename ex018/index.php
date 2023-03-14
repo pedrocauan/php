@@ -3,7 +3,8 @@
 //conexão com o db
 function connection(){
     // 1p -> database, 2p -> usuaio, 3p -> senha
-    $pdo = new PDO("mysql:host=localhost;dbname=library", "usuario", "");
+    $options = array(PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC);
+    $pdo = new PDO("mysql:host=localhost;dbname=library", "usuario", "", $options);
     return $pdo;
 }
 
@@ -13,7 +14,8 @@ function getData($table){
     $query = $connection -> query("select * from {$table}"); //Prepara a query
     $query-> execute(); // executa a query
 
-    return $query -> fetchAll(); //mostra os dados da query
+    /* PDO::FETCH_ASSOC -> evita query duplicada */
+    return $query -> fetchAll(); //retorna os dados da query
 }   
 
 var_dump(getData("book"));
