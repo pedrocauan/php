@@ -27,9 +27,7 @@
         <li><a href="ex013">13 - operadores relacionais</a></li>
         <li><a href="ex014">14 - operadores logicos</a></li>
         <li><a href="ex015">15 - do while e while</a></li>
-
-
-
+        <li><a href="ex016">16 - for e foreach</a></li>
     </ul>
 
     <h2>Formulários</h2>
