@@ -31,6 +31,10 @@
         <li><a href="ex017">17 - cotinue, break</a></li>
         <li><a href="ex018">18 - funções</a></li>
         <li><a href="ex019">19 - closures</a></li>
+        <li><a href="ex020">20 - isset (verificando se uma variavel existe)</a></li>
+        <li><a href="ex021">21 - Escopo e variavel global</a></li>
+        <li><a href="ex022">22 - Super globais</a></li>
+
 
 
     </ul>

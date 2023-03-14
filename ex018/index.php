@@ -16,8 +16,8 @@ function getData($table){
     return $query -> fetchAll(); //mostra os dados da query
 }   
 
+var_dump(getData("book"));
 
-var_dump(getData("user"));
 
 ?>
 
