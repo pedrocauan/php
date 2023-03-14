@@ -30,6 +30,7 @@
         <li><a href="ex016">16 - for e foreach</a></li>
         <li><a href="ex017">17 - cotinue, break</a></li>
         <li><a href="ex018">18 - funções</a></li>
+        <li><a href="ex019">19 - closures</a></li>
 
 
     </ul>
