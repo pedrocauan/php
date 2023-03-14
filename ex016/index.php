@@ -8,7 +8,7 @@
 $person = ["name" => "pedro", "age" => 22, "height" => 1.73];
 
 foreach($person as $key => $value){
-    echo("$key => $value <br>");
+    echo("$key => $value <brgit s>");
 }
 
 
